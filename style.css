@@ -1,0 +1,1009 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* header section  */
+.header {
+    padding: 1rem;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    position: fixed;
+
+}
+
+.header .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #e11a70;
+    margin-left: 45px;
+    font-weight: 600;
+}
+
+.header .items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .items button {
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header .items .login {
+    color: #e11a70;
+    border: 1px solid #e11a70;
+    font-weight: 600;
+}
+
+
+.items .login:hover {
+    background-color:  #faeaf2;
+    color: #e21b70;
+    transition: ease-in-out;
+    transform: scale(1.1);
+    font-size: 0.95rem;
+}
+
+.header .items .Signup {
+    color: white;
+    background: #e11a70;
+    font-weight: 600;
+}
+
+.Signup:hover {
+    transition: ease-in-out;
+    transform: scale(1.1);
+    font-size: 0.95rem;
+    color: #ffffff;
+    background-color: #ac084f;
+}
+/* .nav-items .items::after{
+    border: none;
+} */
+
+.header .items .drop {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.header .nav-items .icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    margin-right: 30px;
+    font-weight: 450;
+    border: none;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.header .dropdown a:hover{
+    background-color: #d70f64;
+}
+.icon-btn{
+    width: 10%;
+    cursor: pointer;
+}
+.icon-btn:hover{
+    background-color: #faeaf2;
+    border-radius:40px;
+}
+.nav-items .icon:hover{
+    background-color: white;
+    border: none;
+}
+
+/* header section end */
+
+
+/* Hero section */
+.mwidth {
+    margin: 0 auto;
+    max-width: 1300px;
+    position: relative;
+}
+
+section.hero {
+    padding: 0 1rem;
+    height: 520px;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 9rem;
+    min-width: 220px;
+    width: 70%;
+}
+
+.hero .bg-img {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    background: url("./images/refresh-hero-home-pk.webp");
+    z-index: -1;
+    float: right;
+    max-height: 335px;
+    margin-left: 67%;
+    background-size: cover;
+}
+
+.hero .box {
+    margin-top: 4rem;
+}
+
+.box .box1 {
+    position: relative;
+   
+}
+
+.box input {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    font-size: 0.9rem;
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 /10%);
+}
+
+.box::placeholder {
+    color: darkgray;
+}
+
+.box1 svg {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.box button {
+    padding: 0.9rem 1rem;
+    color: white;
+    background: #d70f64;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    height: 50px;
+    font-weight: 600;
+    width: 100%;
+}
+.box button:hover{
+    transform: scale(1.1);
+    transition: 0.25 ease-in-out;
+}
+/* hero section end */
+
+/*Partner Section */
+
+.partners {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.partners .text {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: black;
+
+}
+
+.partners .image {
+    background-image: url("./images/home-vendor-pk.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 280px;
+    height: 100%;
+    z-index: -1;
+
+}
+
+
+.partners .container {
+    width: 90%;
+    box-shadow: 0 2px 20px rgb(0 0 0/12%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: -4rem;
+}
+
+.container .heading {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: black;
+
+}
+
+.container p {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.container button {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #d70f64;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #d70f64;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.container button:hover{
+        transform: scale(1.1);
+        transition: 0.25 ease-in-out;
+}
+
+/* Partner Section end */
+
+
+/* cities */
+.location {
+    margin-top: 10%;
+    padding: 0 5%;
+    font-size: 1.8rem;
+}
+
+.city {
+    padding: 1% 5%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.city-main {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 270px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.cities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+    cursor: pointer;
+}
+
+.img1 {
+    background-image: url("./images/1-Islamabad.webp");
+}
+
+.img2 {
+    background-image: url("./images/2-Karachi.webp");
+}
+
+.img3 {
+    background-image: url("./images/3-Lahore.webp");
+}
+
+.img4 {
+    background-image: url("./images/4-Faisalabad.webp");
+}
+
+.img5 {
+    background-image: url("./images/5-Rawalpindi.webp");
+}
+
+.img6 {
+    background-image: url("./images/6-Abottabad.webp");
+}
+
+.img7 {
+    background-image: url("./images/7-Bahawalpur.webp");
+
+}
+
+.img8 {
+    background-image: url("./images/8-DeraGhaziKhan.webp");
+}
+
+.img9 {
+    background-image: url("./images/9-Gujranwala.webp");
+}
+
+.img10 {
+    background-image: url("./images/10-Gujrat.jpg.webp");
+}
+
+.img11 {
+    background-image: url("./images/11-Hyderabad.webp");
+}
+
+.img12 {
+    background-image: url("./images/12-Jhelum.webp");
+}
+
+.img13 {
+    background-image: url("./images/13-Kamoke.webp");
+}
+
+.img14 {
+    background-image: url("./images/14-Larkana.webp");
+}
+
+.img15 {
+    background-image: url("./images/15-Mangla.webp");
+}
+
+.img16 {
+    background-image: url("./images/16-Mardan.webp");
+}
+
+.img17 {
+    background-image: url("./images/17-Multan.webp");
+}
+
+.img18 {
+    background-image: url("./images/18-Murree.webp");
+}
+
+.img19 {
+    background-image: url("./images/19-Okara.webp");
+}
+
+.img20 {
+    background-image: url("./images/20-PanoAqil.webp");
+}
+
+.img21 {
+    background-image: url("./images/21-Peshawar.webp");
+}
+
+.img22 {
+    background-image: url("./images/22-Quetta.webp");
+}
+
+.img23 {
+    background-image: url("./images/23--RahimYarKhan.webp");
+}
+
+.img24 {
+    background-image: url("./images/24-Sadiqabad.webp");
+}
+
+.img25 {
+    background-image: url("./images/25-Sahiwal.webp");
+}
+
+.img26 {
+    background-image: url("./images/26-Sargodha.webp");
+}
+
+.img27 {
+    background-image: url("./images/27-Sheikhupura.jpg.webp");
+}
+
+.img28 {
+    background-image: url("./images/28-Sialkot.webp");
+}
+
+.img29 {
+    background-image: url("./images/29-Sukkur.webp");
+}
+
+.img30 {
+    background-image: url("./images/30-WahhCannt.webp");
+}
+
+.Hover:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-p {
+    margin-left: 7%;
+    margin-bottom: 5%;
+    padding: 3% 2% 3% 2%;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 40px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.extra {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 270px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: none;
+}
+/* cities section end*/
+
+/* App section */
+.app {
+    margin-top: 5rem;
+}
+
+.app .caption {
+    margin-top: 10%;
+    padding: 2rem;
+    font-size: 1.8rem;
+}
+
+.texts svg {
+    height: 80%;
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+
+.app .Container {
+    background: #e21b70;
+    min-height: 100px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.Container .mwidth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+.Container .image-container {
+    position: relative;
+    max-width: 424px;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.image-container img {
+    position: absolute;
+    width: 100%;
+    max-width: 424px;
+    z-index: 2;
+    top: -80px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.content-container .sub-heading {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.content-container .texts {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+.texts img{
+    border: 2px solid white;
+    padding: 3px
+}
+.content-container .buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container .center-svg {
+    margin: 0 1rem;
+}
+/* App section end */
+
+/* office section */
+
+
+.office .image {
+    background-image: url("./images/content-2.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 280px;
+    height: 100%;
+    z-index: -1;
+}
+/* office section end */
+
+
+/* FAQS */
+.faqs{
+padding: 2rem;
+margin-top: 5rem;
+width: 100%;
+}
+.faqs .Heading{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+}
+.faqs .paragraph{
+    margin-top: 1.5rem;
+    font-weight: lighter;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.faqs .paragraph>a{
+    text-decoration: none;
+    color: #e11a70;
+}
+.faqs .paragraph>a:hover{
+    text-decoration: none;
+    color: #ac084f;
+}
+.faqs .list{
+    list-style-type: none;
+    width: 100%;
+    margin-top: 1.5rem;
+
+}
+
+.faqs .list > li{
+    width: 100%;
+    font-weight: lighter;
+    line-height: 1.8rem;
+}
+.faqs li > span{
+    color: #e11a70;
+    padding: 5px;
+
+}
+
+.faqs .divider{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128,128,0.201);
+    margin-top: 1.5rem;
+
+}
+.faqs .list .Strong{
+    font-weight: bold;
+}
+.faqs .sub-heading{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.faqs .bold-text{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.faqs .indented{
+    padding-left: 2rem;
+}
+/* faqs section end */
+
+
+
+/* footer */
+/* branding */
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+footer .divider{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128,128,0.201);
+    margin: 1.5rem auto;
+}
+
+footer .Branding {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+.Branding svg{
+    width: 10rem;
+}
+.Branding .socials-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.socials-icon .icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gray;
+    color: grey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.icon:hover{
+    border: 0.5px solid #e11a70;
+    color: #e11a70;
+}
+/* links */
+.Links{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Links .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    line-height: 1.7rem;
+}
+.Links a{
+    text-decoration: none;
+    color: rgb(137,135,135);
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.Links p{
+    color: rgb(137,135,135);
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.col a:hover{
+    color: #e11a70;
+  }
+
+  /* countries */
+ .Countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+ }
+ .Countries .vertical-divider{
+    width: 1px;
+    height: 18px;
+    background-color: rgb(137,135,135);
+    margin: 0 1rem;
+ }
+  .Countries a{
+    color: rgb(137,135,135);
+    font-weight: lighter;
+    font-size: 0.9rem;
+    text-decoration: none;
+    line-height: 1rem;
+  }
+  .Countries a:hover{
+    color: #e11a70;
+  }
+
+
+
+
+
+
+/* responsiveness */
+
+@media screen and (min-width:768px) {
+    section.hero {
+        padding: 0 2rem;
+    }
+
+    .hero .bg-img {
+        max-height: 900px;
+    }
+
+    .hero .box {
+        background: white;
+        display: flex;
+        box-shadow: 0 0.3rem 2rem rgb(0 0 0 /10%);
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 750px;
+    }
+
+    .box input {
+
+        box-shadow: none;
+    }
+
+    .box1 {
+        width: 80%;
+    }
+
+    .box button {
+        margin-top: 3rem;
+        margin: 0;
+        width: 15%;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* partner */
+    .partners .text {
+        padding: 0 3rem;
+        font-size: 1.5rem;
+    }
+
+    .partners .image {
+        min-height: 404px;
+    }
+
+    .partners .container {
+        margin: 0 3rem;
+        margin-top: -20rem;
+        max-width: 350px;
+        padding: 2rem;
+    }
+
+    .partners .heading {
+        font-size: 1rem;
+
+    }
+
+    .partners p {
+        font-size: 1rem;
+
+    }
+
+    .partners button {
+        font-size: 1rem;
+
+    }
+
+    /* app */
+    .app .Container {
+        display: block;
+    }
+
+    /* .app .caption {
+        display: block;
+      } */
+
+    .Container .mwidth {
+        flex-direction: row-reverse;
+    }
+
+    .Container .content-container {
+        width: 55%;
+        text-align: left;
+        margin-right: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .image-container {
+        width: 45%;
+        text-align: right;
+        max-height: 480px;
+    }
+
+    .image-container img {
+        min-width: 500px;
+    }
+
+    .content-container .sub-heading {
+        font-size: 1.8rem;
+    }
+
+    .content-container .buttons-container {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .icon {
+        display: none;
+    }
+
+    .icon-btn {
+           margin-right: 80px;
+            width: 3%;
+            cursor: pointer;
+    }
+    .icon-btn:hover{
+        background-color: #faeaf2;
+        border-radius: 30px;
+    }
+
+    .hero .bg-img {
+        max-height: 900px;
+    }
+
+    .partners .container {
+        max-width: 450px;
+    }
+
+    .partners button {
+        max-width: 200px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    /* app */
+    .app .Container {
+        padding: 0 2rem;
+        margin-left: 3rem;
+        width: 90%;
+    }
+
+    .image-container img {
+        min-width: 500px;
+        margin-top: -2rem;
+    }
+
+    .content-container .buttons-container {
+        margin-top: 2rem;
+    }
+    /* footer */
+    footer .divider{
+        width: 90%;
+    }
+    /* branding */
+    footer .Branding{
+        width: 90%;
+    }
+    /* links section */
+    .Links{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Links .col{
+        align-items: start;
+        justify-content: start;
+    }
+    /* Countries */
+    .Countries{
+        flex-wrap: nowrap;
+     }
+     
+}
+
+
+@media screen and (min-width:1264px) {
+    .hero .bg-img {
+        max-height: 500px;
+    }
+
+    .hero h3 {
+        font-size: 2.8rem;
+        font-weight: 300;
+    }
+
+    /* partners */
+    .partners .container {
+        box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12);
+        max-width: 580px;
+        height: 400px;
+        margin-top: -10rem;
+    }
+
+    .partners .text {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+      /* Cities */
+    .extra {
+        display: flex;
+    }
+    .partners .container .heading{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .container p{
+        margin-top: -10px;
+        font-size: 1.1rem;
+        font-weight: 100;
+        line-height: 2rem;
+    }
+    .container button{
+        margin: 3px;
+    }
+    /* app */
+    .app .Container {
+        padding: 0 2rem;
+    }
+    .app .caption{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .app .texts{
+        font-size: 1.1rem;
+    }
+    .image-container img{
+        min-width: 590px;
+        margin-right: -30px;
+    }
+    /* office */
+    .office .container{
+        height: 250px;
+
+    }
+    /* faqs */
+    .faqs{
+        padding: 5rem;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .hero .bg-img {
+        max-height: 600px;
+    }
+
+    .partners {
+        margin: 4rem 0;
+        position: relative;
+    }
+
+    .partners .text {
+        padding-left: 19px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+}
